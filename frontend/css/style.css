@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.header-news {
+  display: flex;
+  justify-content: center;
+}
+
+.container-content {
+  display: flex;
+}
+
+.left-container {
+  width: 25%;
+  height: auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+}
+
+.center-container {
+  width: 50%;
+  height: auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+}
+
+.right-container {
+  width: 25%;
+  height: auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+}
+
+.left-container-bottom {
+  width: 25%;
+  height: auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1.5px solid black;
+  border-bottom: 2px solid black;
+}
+
+.center-container-links {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: auto;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1.5px solid black;
+  border-bottom: 2px solid black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+h1 {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+a {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div.yellow {
+  background: yellow;
+  padding: 20px 20px;
+  width: 100%;
+  height: 20%;
+}
+
+div.light-blue {
+  background: cadetblue;
+  padding: 20px 20px;
+  width: 100%;
+  height: 20%;
+}
+
+div.green {
+  background: chartreuse;
+  padding: 20px 20px;
+  width: 100%;
+  height: 20%;
+}
+
+div.blue {
+  background: rgb(56, 56, 168);
+  padding: 20px 20px;
+  width: 100%;
+  height: 20%;
+}
+
+div.purple {
+  background: darkorchid;
+  padding: 20px 20px;
+  width: 100%;
+  height: 20%;
+}
